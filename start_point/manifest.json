@@ -1,0 +1,28 @@
+{
+  "image_name": "ghcr.io/cyber-dojo-languages/csharp_xunit:14bfb4f",
+  "display_name": "C# 10.0.103, xUnit 4.0.0",
+  "language": [
+    "C#",
+    "10.0.103"
+  ],
+  "test_framework": [
+    "xUnit",
+    "4.0.0"
+  ],
+  "visible_filenames": [
+    "cyber-dojo.sh",
+    "HikerTest.cs",
+    "Hiker.cs",
+    "dojo.csproj"
+  ],
+  "rag_lambda": "red_amber_green.rb",
+  "filename_extension": [
+    ".cs"
+  ],
+  "max_seconds": 15,
+  "tab_size": 4,
+  "progress_regexs": [
+    "Failed:\\s*\\d+",
+    "Total:\\s*\\d+"
+  ]
+}
