@@ -45,7 +45,11 @@ cp ~/dojo_refs/dojo.runtimeconfig.json bin/
 # Every .cs file is compiled, at any depth, including ones nothing else refers
 # to yet, so a file you are midway through writing shows its errors instead of
 # being passed over in silence.
-if ! dotnet ${CSC} -nologo -target:exe -out:bin/dojo.dll ${REFERENCES} ${ENTRY_POINT} $(find . -name '*.cs'); then
+#
+# -nowarn:1701,1702 keeps one warning out of your way. Moq was built against an
+# older System.Linq.Expressions than this runtime carries. The mismatch is
+# harmless, and there is nothing you could do about it from here.
+if ! dotnet ${CSC} -nologo -nowarn:1701,1702 -target:exe -out:bin/dojo.dll ${REFERENCES} ${ENTRY_POINT} $(find . -name '*.cs'); then
   exit 1
 fi
 
