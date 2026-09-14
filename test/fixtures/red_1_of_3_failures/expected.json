@@ -1,0 +1,8 @@
+{
+  "match_counts": {
+    "^    HikerTest\\.the_answer_is_three_digits_long \\[FAIL\\]$": 1,
+    "\\[FAIL\\]": 1,
+    "^      Assert\\.Equal\\(\\) Failure: Values differ$": 1,
+    "^   dojo  Total: 3, Errors: 0, Failed: 1, Skipped: 0, Not Run: 0, Time: ": 1
+  }
+}

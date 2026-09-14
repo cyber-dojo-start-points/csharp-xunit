@@ -1,0 +1,19 @@
+using Xunit;
+
+// Saved as .txt rather than .cs. cyber-dojo.sh hands the compiler what find
+// names for *.cs, so this one is never compiled and xunit never sees the
+// test. Calling it something other than HikerTest.cs would not have been
+// enough on its own: xunit gathers tests by the [Fact] attribute and does not
+// care which file they came from, so a .cs file under any name at all still
+// runs. The extension is what keeps this one out.
+//
+// The assertion below is one that would fail, so a green says this really did
+// not run rather than that it ran and passed.
+public class AnswerSizeTest
+{
+    [Fact]
+    public void the_answer_is_three_digits_long()
+    {
+        Assert.Equal(3, new Hiker().Answer().ToString().Length);
+    }
+}

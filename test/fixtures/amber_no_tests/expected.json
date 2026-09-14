@@ -1,0 +1,8 @@
+{
+  "matches": [ "^   dojo  Total: 0$" ],
+  "match_counts": {
+    "^=== TEST EXECUTION SUMMARY ===$": 1,
+    "Errors: ": 0,
+    "\\[FAIL\\]": 0
+  }
+}

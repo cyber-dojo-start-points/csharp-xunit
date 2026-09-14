@@ -1,0 +1,9 @@
+{
+  "match_counts": {
+    "^    HikerTest\\.[a-z_]+ \\[FAIL\\]$": 2,
+    "\\[FAIL\\]": 2,
+    "^      System\\.DivideByZeroException : Attempted to divide by zero\\.$": 2,
+    "^ *Assert\\.[A-Za-z]+\\(\\) Failure": 0,
+    "^   dojo  Total: 2, Errors: 0, Failed: 2, Skipped: 0, Not Run: 0, Time: ": 1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "max_output_lines": 20,
+  "match_counts": {
+    "^debug on stdout: answer was called$": 1,
+    "^debug on stderr: answer was called$": 1,
+    "^   dojo  Total: 1, Errors: 0, Failed: 0, Skipped: 0, Not Run: 0, Time: ": 1,
+    "\\[FAIL\\]": 0
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "matches": [ "^      System\\.IndexOutOfRangeException : Index was outside the bounds of the array\\.$" ],
+  "match_counts": {
+    "^    HikerTest\\.the_answer_is_two_digits_long \\[FAIL\\]$": 1,
+    "^    HikerTest\\.life_the_universe_and_everything \\[FAIL\\]$": 1,
+    "\\[FAIL\\]": 2,
+    "^ *Assert\\.[A-Za-z]+\\(\\) Failure": 1,
+    "^   dojo  Total: 2, Errors: 0, Failed: 2, Skipped: 0, Not Run: 0, Time: ": 1
+  }
+}
