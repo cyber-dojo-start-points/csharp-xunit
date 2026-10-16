@@ -1,13 +1,13 @@
 {
-  "image_name": "ghcr.io/cyber-dojo-languages/csharp_xunit:ab7d7e4",
-  "display_name": "C# 14.0, xUnit 4.0",
+  "image_name": "ghcr.io/cyber-dojo-languages/csharp_xunit:52390f7@sha256:3cd5c90068b51291dab83d64f0948c64a9e615fe6172b8ac39357281235ecaca",
+  "display_name": "C# 14.0, xUnit 4.0.2",
   "language": [
     "C#",
     "14.0"
   ],
   "test_framework": [
     "xUnit",
-    "4.0"
+    "4.0.2"
   ],
   "visible_filenames": [
     "cyber-dojo.sh",
